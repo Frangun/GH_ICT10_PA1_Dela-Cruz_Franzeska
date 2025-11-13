@@ -10,6 +10,9 @@ math_club = {'Kyla', 'Clar', 'Fran'}
 # students only in 2nd: clar & fran
 # students who are in exactly one club (according to this): clar, fran, yciar, gino
 
+# union
+display(comarts_club | math_club, target='output')
+
 # ampersand
 display(comarts_club & math_club, target='output')
 
@@ -20,6 +23,7 @@ display(math_club - comarts_club, target='output')
 
 # symmetric difference
 display(comarts_club ^ math_club, target='output')
+
 
 
 
